@@ -1,0 +1,23 @@
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/psych-5.3.1/ext/psych
+/Users/yuya/.rbenv/versions/3.1.7/bin/ruby -I /Users/yuya/.rbenv/versions/3.1.7/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20260428-41285-l8q6dl sitelibdir\=./.gem.20260428-41285-l8q6dl clean
+cd libyaml && /Applications/Xcode.app/Contents/Developer/usr/bin/make clean
+/bin/sh: line 0: cd: libyaml: No such file or directory
+make: [clean-so] Error 1 (ignored)
+
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20260428-41285-l8q6dl sitelibdir\=./.gem.20260428-41285-l8q6dl
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20260428-41285-l8q6dl sitelibdir\=./.gem.20260428-41285-l8q6dl install
+/usr/bin/install -c -m 0755 psych.bundle ./.gem.20260428-41285-l8q6dl

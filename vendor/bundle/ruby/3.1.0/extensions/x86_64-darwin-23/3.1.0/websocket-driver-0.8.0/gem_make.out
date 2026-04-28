@@ -1,0 +1,16 @@
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+/Users/yuya/.rbenv/versions/3.1.7/bin/ruby -I /Users/yuya/.rbenv/versions/3.1.7/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260428-41285-jlc6r4 sitelibdir\=./.gem.20260428-41285-jlc6r4 clean
+
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260428-41285-jlc6r4 sitelibdir\=./.gem.20260428-41285-jlc6r4
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260428-41285-jlc6r4 sitelibdir\=./.gem.20260428-41285-jlc6r4 install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20260428-41285-jlc6r4

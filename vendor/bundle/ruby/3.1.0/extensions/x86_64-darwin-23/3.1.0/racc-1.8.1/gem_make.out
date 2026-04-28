@@ -1,0 +1,16 @@
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/yuya/.rbenv/versions/3.1.7/bin/ruby -I /Users/yuya/.rbenv/versions/3.1.7/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260428-41285-y4c8qq sitelibdir\=./.gem.20260428-41285-y4c8qq clean
+
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260428-41285-y4c8qq sitelibdir\=./.gem.20260428-41285-y4c8qq
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260428-41285-y4c8qq sitelibdir\=./.gem.20260428-41285-y4c8qq install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260428-41285-y4c8qq/racc

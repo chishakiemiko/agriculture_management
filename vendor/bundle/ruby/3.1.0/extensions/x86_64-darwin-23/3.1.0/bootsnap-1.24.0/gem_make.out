@@ -1,0 +1,21 @@
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.24.0/ext/bootsnap
+/Users/yuya/.rbenv/versions/3.1.7/bin/ruby -I /Users/yuya/.rbenv/versions/3.1.7/lib/ruby/3.1.0 extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for fstatat() in sys/stat.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.24.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20260428-41285-bo4yv9 sitelibdir\=./.gem.20260428-41285-bo4yv9 clean
+
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.24.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20260428-41285-bo4yv9 sitelibdir\=./.gem.20260428-41285-bo4yv9
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/yuya/Desktop/agriculture_management/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.24.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20260428-41285-bo4yv9 sitelibdir\=./.gem.20260428-41285-bo4yv9 install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20260428-41285-bo4yv9/bootsnap
